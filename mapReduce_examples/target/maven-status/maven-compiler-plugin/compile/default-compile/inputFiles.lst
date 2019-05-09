@@ -1,0 +1,9 @@
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/movieRatings/MovieRatingsSortMapper.java
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/movieRatings/MovieRatingsReducer.java
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/movieRatings/MovieRatingsDriver.java
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/wordcount/WordCountMapper.java
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/movieRatings/MovieRatingsMapper.java
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/wordcount/WordCountReducer.java
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/movieRatings/MovireRatingsSortDriver.java
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/movieRatings/MovieRatingsSortReducer.java
+/home/senko/eclipse-workspace/mr_examples/src/main/java/com/senko/wordcount/WordCountDriver.java
