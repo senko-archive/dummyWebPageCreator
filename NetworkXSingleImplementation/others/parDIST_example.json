@@ -1,0 +1,572 @@
+[
+    {
+        "id": "n0",
+        "name": "n0",
+        "data": {
+            "partition": "C1",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n1",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n4",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n5",
+                "data": {
+                    "weight": 4
+                }
+            }
+        ]
+    },
+    {
+        "id": "n1",
+        "name": "n1",
+        "data": {
+            "partition": "C1",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n0",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n2",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n3",
+                "data": {
+                    "weight": 8
+                }
+            }
+        ]
+    },
+    {
+        "id": "n2",
+        "name": "n2",
+        "data": {
+            "partition": "C1",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n1",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n3",
+                "data": {
+                    "weight": 7
+                }
+            },
+            {
+                "nodeTo": "n5",
+                "data": {
+                    "weight": 3
+                }
+            },
+            {
+                "nodeTo": "n6",
+                "data": {
+                    "weight": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "n3",
+        "name": "n3",
+        "data": {
+            "partition": "C1",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n1",
+                "data": {
+                    "weight": 8
+                }
+            },
+            {
+                "nodeTo": "n2",
+                "data": {
+                    "weight": 7
+                }
+            },
+            {
+                "nodeTo": "n7",
+                "data": {
+                    "weight": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "n4",
+        "name": "n4",
+        "data": {
+            "partition": "C1",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n0",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n5",
+                "data": {
+                    "weight": 3
+                }
+            },
+            {
+                "nodeTo": "n8",
+                "data": {
+                    "weight": 3
+                }
+            }
+        ]
+    },
+    {
+        "id": "n5",
+        "name": "n5",
+        "data": {
+            "partition": "C1",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n0",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n2",
+                "data": {
+                    "weight": 3
+                }
+            },
+            {
+                "nodeTo": "n4",
+                "data": {
+                    "weight": 3
+                }
+            }
+        ]
+    },
+    {
+        "id": "n6",
+        "name": "n6",
+        "data": {
+            "partition": "C2",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n2",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n7",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n9",
+                "data": {
+                    "weight": 3
+                }
+            }
+        ]
+    },
+    {
+        "id": "n7",
+        "name": "n7",
+        "data": {
+            "partition": "C2",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n3",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n6",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n12",
+                "data": {
+                    "weight": 5
+                }
+            }
+        ]
+    },
+    {
+        "id": "n9",
+        "name": "n9",
+        "data": {
+            "partition": "C2",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n6",
+                "data": {
+                    "weight": 3
+                }
+            },
+            {
+                "nodeTo": "n11",
+                "data": {
+                    "weight": 3
+                }
+            }
+        ]
+    },
+    {
+        "id": "n11",
+        "name": "n11",
+        "data": {
+            "partition": "C2",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n9",
+                "data": {
+                    "weight": 3
+                }
+            },
+            {
+                "nodeTo": "n12",
+                "data": {
+                    "weight": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "n12",
+        "name": "n12",
+        "data": {
+            "partition": "C2",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n7",
+                "data": {
+                    "weight": 5
+                }
+            },
+            {
+                "nodeTo": "n11",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n16",
+                "data": {
+                    "weight": 4
+                }
+            }
+        ]
+    },
+    {
+        "id": "n14",
+        "name": "n14",
+        "data": {
+            "partition": "C3",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n15",
+                "data": {
+                    "weight": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "n15",
+        "name": "n15",
+        "data": {
+            "partition": "C3",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n16",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n14",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n19",
+                "data": {
+                    "weight": 5
+                }
+            },
+            {
+                "nodeTo": "n20",
+                "data": {
+                    "weight": 5
+                }
+            }
+        ]
+    },
+    {
+        "id": "n16",
+        "name": "n16",
+        "data": {
+            "partition": "C3",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n12",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n15",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n20",
+                "data": {
+                    "weight": 5
+                }
+            }
+        ]
+    },
+    {
+        "id": "n19",
+        "name": "n19",
+        "data": {
+            "partition": "C3",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n15",
+                "data": {
+                    "weight": 5
+                }
+            },
+            {
+                "nodeTo": "n18",
+                "data": {
+                    "weight": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "n20",
+        "name": "n20",
+        "data": {
+            "partition": "C3",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n16",
+                "data": {
+                    "weight": 5
+                }
+            },
+            {
+                "nodeTo": "n15",
+                "data": {
+                    "weight": 5
+                }
+            }
+        ]
+    },
+    {
+        "id": "n8",
+        "name": "n8",
+        "data": {
+            "partition": "C4",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n4",
+                "data": {
+                    "weight": 3
+                }
+            },
+            {
+                "nodeTo": "n13",
+                "data": {
+                    "weight": 5
+                }
+            },
+            {
+                "nodeTo": "n10",
+                "data": {
+                    "weight": 3
+                }
+            }
+        ]
+    },
+    {
+        "id": "n10",
+        "name": "n10",
+        "data": {
+            "partition": "C4",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n18",
+                "data": {
+                    "weight": 7
+                }
+            },
+            {
+                "nodeTo": "n13",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n8",
+                "data": {
+                    "weight": 3
+                }
+            }
+        ]
+    },
+    {
+        "id": "n13",
+        "name": "n13",
+        "data": {
+            "partition": "C4",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n18",
+                "data": {
+                    "weight": 6
+                }
+            },
+            {
+                "nodeTo": "n17",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n10",
+                "data": {
+                    "weight": 4
+                }
+            },
+            {
+                "nodeTo": "n8",
+                "data": {
+                    "weight": 5
+                }
+            }
+        ]
+    },
+    {
+        "id": "n17",
+        "name": "n17",
+        "data": {
+            "partition": "C4",
+            "borderNode": false
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n18",
+                "data": {
+                    "weight": 3
+                }
+            },
+            {
+                "nodeTo": "n13",
+                "data": {
+                    "weight": 4
+                }
+            }
+        ]
+    },
+    {
+        "id": "n18",
+        "name": "n18",
+        "data": {
+            "partition": "C4",
+            "borderNode": true
+        },
+        "adjacencies": [
+            {
+                "nodeTo": "n19",
+                "data": {
+                    "weight": 2
+                }
+            },
+            {
+                "nodeTo": "n17",
+                "data": {
+                    "weight": 3
+                }
+            },
+            {
+                "nodeTo": "n10",
+                "data": {
+                    "weight": 7
+                }
+            },
+            {
+                "nodeTo": "n13",
+                "data": {
+                    "weight": 6
+                }
+            }
+        ]
+    }
+]

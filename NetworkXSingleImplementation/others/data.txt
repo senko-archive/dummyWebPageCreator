@@ -1,0 +1,1 @@
+[{"id": "6", "name": "6", "data": {"color": "red"}, "adjacencies": [{"nodeTo": "4", "data": {}}, {"nodeTo": "5", "data": {}}]}, {"id": "4", "name": "4", "data": {"color": "red"}, "adjacencies": [{"nodeTo": "6", "data": {}}]}, {"id": "5", "name": "5", "data": {"color": "green"}, "adjacencies": [{"nodeTo": "6", "data": {}}]}]
